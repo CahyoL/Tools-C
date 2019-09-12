@@ -1,0 +1,73 @@
+#!/bin/bash
+
+#################################
+#===============================#
+#       GANTI KATA SANDI        #
+#===============================#
+#-------------------------------#
+
+Pw="admin"
+
+#-------------------------------#
+#   Untuk mengubah Kata Sandi   #
+#  Ganti huruf yang ada dalam   #
+#         TANDA PETIK           #
+#                               #
+#################################
+#-------------------------------#
+#          GELLMOXER            #
+#===============================#
+
+lg="./komandan";ke="cd $home";c="clear";e="echo";Sa=" ";pW="KATA SANDI";lc="lolcat";Ss=" : ";zx="   ";mf="-f";ifg="      Locked      ";sl="PASSWORD SALAH";sb="SUKSES LOGIN";fn="pagga.flf";s="sleep 2";fg="figlet";f="sleep 1";fs="sleep 0.01";cnt="                ";
+trap ctrl_c INT
+ctrl_c() {
+       $fs
+       $c
+       $fs
+       $ke
+}
+$fs
+$e
+$fs
+$fg$Sa$mf$Sa$fn$Sa"$ifg"|$lc
+$fs
+$e
+$fs
+$e
+$fs
+$e
+$fs
+$e
+$fs
+$e
+$fs
+$e
+$fs
+$e
+$fs
+$e
+$fs
+$e
+$fs
+read -sp "$cnt" rB ;
+case $rB in
+$Pw)
+$fs
+$e
+$fs
+$e$Sa"$cnt$sb"|$lc
+$s
+$c
+;;
+*)
+$fs
+$e
+$fs
+$e$Sa"$cnt$sl"|$lc
+$f
+$c
+$fs
+$lg
+$fs
+;;
+esac
