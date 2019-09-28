@@ -15,6 +15,8 @@ ku='\033[33;1m' #kuning
 # Jangan Recode Ya gayn
 echo
 echo
+python2 password.py
+echo
 echo
 echo $i"["$bi"•"$i"]"$me"───────────────────────────────────────────"$i"["$bi"•"$i"]"
 echo $i" |"$cy"     INDONESIA DARK TERMUX ASSOCIATE"$i"         |"
